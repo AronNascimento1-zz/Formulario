@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="/Pagina-processa-dados-do-form" method="POST">
+        <h1>Preencha seus dados</h1>
+        <div>
+            <label for="civil-name">Nome-Civil:</label>
+            <input type="text" id="name">
+        </div>
+
+        <div>
+            <label for="social-name">Nome-Social:</label>
+            <input type="text" id="surname">
+        </div>
+
+        <div>
+            <label for="birth">Data de Nascimento:</label>
+            <input type="text" id="birth">
+        </div>
+
+        <div>
+            <label for="sex">Identidade de Genero:</label>
+            <input type="radio" name="sex" value="Masculino" />Homem-Cis<br>
+            <input type="radio" name="sex" value="Feminino" />Homem-Trans
+            <input type="radio" name="sex" value="Mulher-Cis" />Mulher-Cis
+            <input type="radio" name="sex" value="Mulher-Trans" />Mulher-Trans
+            <input type="radio" name="sex" value="Travesti" />Travesti
+            <input type="radio" name="sex" value="Nao-Binario" />Não-Binario
+        </div>
+        <label for="schooling">Escolaridade:</label>
+        <select name="schooling" id="school">
+          <option value="select">Selecione</option>
+          <option value="e.fund">Ensino Fundamental</option>
+          <option value="e.med">Ensino Médio</option>
+          <option value="grad">Graduado</option>
+          <option value="p.grad">Pós-Graduação</option>
+          <option value="mestre">Mestrado</option>
+          <option value="doutor">Doutorado</option>
+        </select>
+        <div>
+            <label for="adress">Endereço:</label>
+            <input type="text" id="adress">
+        </div>
+        <div>
+            <label for="phone">Telefone:</label>
+            <input type="text" id="phone">
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="text" id="mail">
+        </div>
+        <div>
+            <label for="ling">Conhecimento em Quais Linguagens ?:<br></label>
+            <input type="checkbox" name="py" value="Python" />Python
+            <input type="checkbox" name="Jav" value="Java" />Java
+            <input type="checkbox" name="js" value="JavaScript" />JavaScript
+            <input type="checkbox" name="c" value="C" />C
+            <input type="checkbox" name="c#" value="C#" />C#<br>
+            <input type="checkbox" name="html5" value="HTML" />HTML
+            <input type="checkbox" name="css3" value="CSS" />CSS
+
+        </div>
+
+        <button class="btn-primary">Enviar</button>
+        <button class="btn-secondary">Cancelar</button>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
+
+</html>
