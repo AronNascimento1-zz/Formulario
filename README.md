@@ -5,7 +5,7 @@
 <a href="https://aronnascimento1.github.io/Formulario/"><img src="/assets/GifFormulario.gif" width="800px" height="500px"></a><br>
 clique<a href="https://aronnascimento1.github.io/Formulario/"> aqui </a>para testar o Formulário
 _________
-🧑‍💻 Clone ou faça o downlod desse repositório:
+🧑‍💻 Clone ou faça o download desse repositório:
 
 ```
 # Clone o repositório
